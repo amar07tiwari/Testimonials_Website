@@ -1,0 +1,49 @@
+
+.image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+.name{
+    text-align: center;
+}
+.nameee{
+    font: bolder;
+    font-size: xx-large;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+.text{
+    margin: 5px 5px;
+    width: 500px;
+}
+.job{
+    color: rgb(182, 128, 231);
+    margin-top: 0%;
+}
+.quote{
+    color: blueviolet;
+    margin-top: 2%;
+}
+.button{
+    display: flex;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.button-1{
+    
+    color: blueviolet;
+    cursor: pointer;
+    padding: 5px 13px;
+    font-size: large;
+}
+.surprise{
+    margin-top: 25px;
+    background-color: blueviolet;
+    padding: 12px 28px;
+    border-radius: 8px;
+    color: white;
+    font-size: medium;
+}

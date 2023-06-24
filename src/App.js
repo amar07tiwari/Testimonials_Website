@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import reviews from './data'
+import Testimonial from "./components/Testimonial.js"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+     <div className='main'>
+        <h1 className='heading'>Our Testimonials</h1>
+        
+        <div className='line'></div>
+
+        <Testimonial reviews= {reviews}/>
+     </div>
     </div>
   );
 }
